@@ -3,7 +3,7 @@
 #included are a cool dice roller allowing you to pick the amount of sides
 # a coinflip function bc why not
 # a random card selector
-# a random name drawing system given inputs
+# a random name drawing system given inputs1
 import random
 
 def diceroll():
@@ -12,7 +12,7 @@ def diceroll():
     print(f'Rolling a {x} sided dice')
     xy = random.randint(1,x)
     print(f'You rolled a {xy} !')
-#allows me to let user pick 
+#allows me to let user pick num of sides
 
 def coinflip():
     fl = random.randint(0,1)
@@ -27,10 +27,12 @@ def carddraw():
     cs = {0:'Hearts',1:'Clubs',2:'Diamonds',3:'Spades'}
     cv = random.randint(1,13)
     cvv = {1:'Ace',11:'Jack',12:'Queen',13:'King'}
-    r = cvv.get(cv, str(cv))  # Use the dictionary to get the rank name
+    r = cvv.get(cv, str(cv))  # Use the dictionary to get the suit name
     suit = cs[cd]  # Use the dictionary to get the suit name
     print(f'You pulled a {r} of {suit}')
 
+
+#as a dm add interface do like 4 d6, give avg, sum, each individual value. -parker
 #card draw that shows suit, value
 def random_name_pick():
     names = []
