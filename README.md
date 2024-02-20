@@ -2,4 +2,4 @@
 ### made by aiden levy
 
 ## Purpose
-### table top tools...
+### table top tools is a python tool that allows you to simulate Random Card selection, drawing names from a hat, rolling a dice where the user can determine the number of faces
